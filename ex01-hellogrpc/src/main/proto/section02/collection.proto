@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package section02;
+
+option java_package = "com.partha.models.section02";
+option java_multiple_files = true;
+
+message Book {
+    string title =1;
+    string author = 2;
+    int32 publication_year =3;
+}
+
+message Library {
+    string name =1;
+    repeated Book books =2; //this will be our collection. this can take any collection i.e. list or set
+}
