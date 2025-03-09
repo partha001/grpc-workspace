@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package section01;
+
+option java_package = "com.partha.models.section01";
+option java_multiple_files = true;
+
+message Person1 {
+    string name = 1;
+    int32 age =2;
+}
