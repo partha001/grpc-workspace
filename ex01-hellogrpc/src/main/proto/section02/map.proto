@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package section02;
+
+option java_package = "com.partha.models.section02";
+option java_multiple_files = true;
+
+message Car {
+    string make=1;
+    string model=2;
+    int32 year=3;
+}
+
+message Dealer {
+    map<int32 , Car> inventory = 1; //this is the way to declare map
+}
+
+/**
+sometimes we might want to have some complex map structure. like the below
+Dealer = Map<Integer, List<Car>>
+
+//we generally tend to think of the below decalary . but this is incorrect
+message Dealer {
+    map<int32 , repeated Car> inventory = 1; //this is the way to declare map
+}
+
+
+//the correct declaration in this case as will be.
+message Cars {
+    repeated Car cars =1;
+}
+
+message Dealer {
+    map<int32, Cars> inventory =1
+}
+ **/
