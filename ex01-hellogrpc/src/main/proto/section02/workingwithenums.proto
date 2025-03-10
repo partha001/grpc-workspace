@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package section02;
+
+option java_package = "com.partha.models.section02";
+option java_multiple_files = true;
+
+enum DayOfWeek{
+    SUNDAY=0; //it is to be noted that the first field-number has to start with 0
+    MONDAY=1;
+}
+
+message Event {
+    string name=1;
+    DayOfWeek day_of_week = 2;
+}
+
