@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package section03;
+
+import "section03/common/address.proto";
+import "section03/common/car.proto";
+
+option java_package = "com.partha.models.section03";
+option java_multiple_files = true;
+
+message PersonWithOptionalScalars {
+    string name =1;
+    optional int32 age =2;
+    section03.common.Address address =3;
+    section03.common.Car car = 4;
+
+}
