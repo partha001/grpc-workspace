@@ -1,9 +1,7 @@
-package org.example.common.program03;
+package org.example.program03;
 
-import org.example.common.AbstractChannelTest;
-import org.example.program03.BankService;
-import org.example.program03.GrpcServer;
 import com.partha.program03.BankServiceGrpc;
+import org.example.common.AbstractChannelTest;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 
