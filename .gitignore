@@ -3,3 +3,4 @@ ex01-hellogrpc/target/
 ex02-uniary-communication/target/
 ex03-server-streaming/target/
 *.iml
+ex04-client-streaming/target/
