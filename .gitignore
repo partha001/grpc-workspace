@@ -4,3 +4,4 @@ ex02-uniary-communication/target/
 ex03-server-streaming/target/
 *.iml
 ex04-client-streaming/target/
+ex05-bidirectional-streaming/target/
