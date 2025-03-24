@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package program02;
+
+import "google/protobuf/empty.proto";
+
+option java_package = "com.partha.program02";
+option java_multiple_files = true;
+
+
+/*
+server emits 1-100 very fast
+we want to control the rate in which server emits based on the client's processing speed (vice-versa)
+this process is called back-pressure handling/flow-control
+ */
+
+message Output{
+  int32 value =1;
+}
+
+message RequestSize{
+  int32 size=1;
+}
+
+service FlowControlService{
+  rpc GetMessage(stream RequestSize) returns (stream Output);
+}
+
