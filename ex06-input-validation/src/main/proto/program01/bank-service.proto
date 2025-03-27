@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package program01;
+
+option java_package = "com.partha.program01";
+option java_multiple_files = true;
+
+message BalanceCheckRequest{
+  int32 account_number=1;
+}
+
+message AccountBalance {
+  int32  account_number=1;
+  int32 balance=2;
+}
+
+message AllAccountsResponse{
+  repeated AccountBalance accounts=1;
+}
+
+message WithdrawRequest{
+  int32 account_number=1;
+  int32 amount=2;
+}
+
+message Money{
+  int32 amount=1;
+}
+
+service BankService{
+  /** unary call
+  validation1: account number should be betwen 1 and 10
+   */
+  rpc GetAccountBalance(BalanceCheckRequest) returns (AccountBalance);
+
+  /** server-streaming call
+  validation1: account number should be between 1 and 10
+  validation2: amount should be mulples of 10
+  validation3: account should have enough balance
+   */
+
+  rpc Withdraw(WithdrawRequest) returns (stream Money);
+}
