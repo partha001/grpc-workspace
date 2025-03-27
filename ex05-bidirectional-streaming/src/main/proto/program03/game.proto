@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package program03;
+
+import "google/protobuf/empty.proto";
+
+option java_package = "com.partha.program03";
+option java_multiple_files = true;
+
+
+message GuessRequest {
+  int32 guess = 1;
+}
+
+enum Result {
+  CORRECT = 0;
+  TOO_LOW = 1;
+  TOO_HIGH = 2;
+}
+
+message GuessResponse {
+  int32 attempt = 1;
+  Result result = 2;
+}
+
+service GuessNumber {
+  rpc MakeGuess(stream GuessRequest) returns (stream GuessResponse);
+}
+
