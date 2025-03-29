@@ -5,3 +5,4 @@ ex03-server-streaming/target/
 *.iml
 ex04-client-streaming/target/
 ex05-bidirectional-streaming/target/
+ex06-input-validation/target/
