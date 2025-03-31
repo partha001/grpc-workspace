@@ -1,8 +1,6 @@
 .idea/
 *.iml
 
-ex06-input-validation/target/
-
 /ex01-hellogrpc/target/maven-status/
 /ex01-hellogrpc/target/ex01-hellogrpc-1.0-SNAPSHOT.jar
 /ex01-hellogrpc/target/maven-archiver/
@@ -51,3 +49,13 @@ ex06-input-validation/target/
 /ex05-bidirectional-streaming/target/maven-status/
 /ex05-bidirectional-streaming/target/surefire-reports/
 /ex05-bidirectional-streaming/target/classes/
+
+/ex06-input-validation/target/generated-test-sources/
+/ex06-input-validation/target/protoc-dependencies/
+/ex06-input-validation/target/test-classes/
+/ex06-input-validation/target/classes/
+/ex06-input-validation/target/ex06-input-validation-1.0-SNAPSHOT.jar
+/ex06-input-validation/target/surefire-reports/
+/ex06-input-validation/target/maven-status/
+/ex06-input-validation/target/protoc-plugins/
+/ex06-input-validation/target/maven-archiver/
