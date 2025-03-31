@@ -1,7 +1,6 @@
 .idea/
 *.iml
 
-ex05-bidirectional-streaming/target/
 ex06-input-validation/target/
 
 /ex01-hellogrpc/target/maven-status/
@@ -42,3 +41,13 @@ ex06-input-validation/target/
 /ex04-client-streaming/target/test-classes/
 /ex04-client-streaming/target/surefire-reports/
 /ex04-client-streaming/target/protoc-plugins/
+
+/ex05-bidirectional-streaming/target/protoc-dependencies/
+/ex05-bidirectional-streaming/target/test-classes/
+/ex05-bidirectional-streaming/target/ex05-bidirectional-streaming-1.0-SNAPSHOT.jar
+/ex05-bidirectional-streaming/target/protoc-plugins/
+/ex05-bidirectional-streaming/target/generated-test-sources/
+/ex05-bidirectional-streaming/target/maven-archiver/
+/ex05-bidirectional-streaming/target/maven-status/
+/ex05-bidirectional-streaming/target/surefire-reports/
+/ex05-bidirectional-streaming/target/classes/
