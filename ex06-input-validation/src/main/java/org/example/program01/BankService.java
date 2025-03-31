@@ -4,16 +4,13 @@ import com.google.common.util.concurrent.Uninterruptibles;
 import com.partha.program01.AccountBalance;
 import com.partha.program01.BalanceCheckRequest;
 import com.partha.program01.BankServiceGrpc;
+import com.partha.program01.Money;
 import com.partha.program01.WithdrawRequest;
 import io.grpc.Status;
 import io.grpc.stub.StreamObserver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.partha.program01.Money;
-
-import java.util.HashMap;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class BankService extends BankServiceGrpc.BankServiceImplBase {
