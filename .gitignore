@@ -1,8 +1,15 @@
 .idea/
-ex01-hellogrpc/target/
+*.iml
 ex02-uniary-communication/target/
 ex03-server-streaming/target/
-*.iml
 ex04-client-streaming/target/
 ex05-bidirectional-streaming/target/
 ex06-input-validation/target/
+/ex01-hellogrpc/target/maven-status/
+/ex01-hellogrpc/target/ex01-hellogrpc-1.0-SNAPSHOT.jar
+/ex01-hellogrpc/target/maven-archiver/
+/ex01-hellogrpc/target/generated-test-sources/
+/ex01-hellogrpc/target/classes/
+/ex01-hellogrpc/target/test-classes/
+/ex01-hellogrpc/target/protoc-dependencies/
+/ex01-hellogrpc/target/protoc-plugins/
