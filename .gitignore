@@ -1,6 +1,6 @@
 .idea/
 *.iml
-ex04-client-streaming/target/
+
 ex05-bidirectional-streaming/target/
 ex06-input-validation/target/
 
@@ -32,3 +32,13 @@ ex06-input-validation/target/
 /ex03-server-streaming/target/ex03-server-streaming-1.0-SNAPSHOT.jar
 /ex03-server-streaming/target/protoc-plugins/
 /ex03-server-streaming/target/protoc-dependencies/
+
+/ex04-client-streaming/target/protoc-dependencies/
+/ex04-client-streaming/target/maven-status/
+/ex04-client-streaming/target/classes/
+/ex04-client-streaming/target/maven-archiver/
+/ex04-client-streaming/target/generated-test-sources/
+/ex04-client-streaming/target/ex04-client-streaming-1.0-SNAPSHOT.jar
+/ex04-client-streaming/target/test-classes/
+/ex04-client-streaming/target/surefire-reports/
+/ex04-client-streaming/target/protoc-plugins/
