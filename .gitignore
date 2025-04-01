@@ -59,3 +59,12 @@
 /ex06-input-validation/target/maven-status/
 /ex06-input-validation/target/protoc-plugins/
 /ex06-input-validation/target/maven-archiver/
+
+/ex07-grpc-deadline/target/protoc-plugins/
+/ex07-grpc-deadline/target/generated-test-sources/
+/ex07-grpc-deadline/target/maven-archiver/
+/ex07-grpc-deadline/target/maven-status/
+/ex07-grpc-deadline/target/test-classes/
+/ex07-grpc-deadline/target/protoc-dependencies/
+/ex07-grpc-deadline/target/ex07-grpc-deadline-1.0-SNAPSHOT.jar
+/ex07-grpc-deadline/target/classes/
