@@ -9,6 +9,10 @@ import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * this test-client [with WaitForReady] application shows that it waits indefinitely for the server apllication to up
+ * since we have added WaitForReady on the client-side
+ */
 public class WaitForReadyTest3 extends AbstractChannelTest {
 
     private static final Logger log = LoggerFactory.getLogger(WaitForReadyTest3.class);

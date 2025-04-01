@@ -15,6 +15,9 @@ import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * this test client shows how the client-server interact without  WaitForReady
+ */
 public class WaitForReadyTest extends AbstractChannelTest {
 
     private static final Logger log = LoggerFactory.getLogger(WaitForReadyTest.class);

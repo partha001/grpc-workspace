@@ -9,6 +9,9 @@ import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * this test client shows how the client[without WaitForReady] reacts when the server  is not up
+ */
 public class WaitForReadyTest2 extends AbstractChannelTest {
 
     private static final Logger log = LoggerFactory.getLogger(WaitForReadyTest2.class);
