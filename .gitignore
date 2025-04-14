@@ -68,3 +68,12 @@
 /ex07-grpc-deadline/target/classes/
 /ex07-grpc-deadline/target/protoc-plugins/
 /ex07-grpc-deadline/target/ex07-grpc-deadline-1.0-SNAPSHOT.jar
+
+/ex08-channel-loadbalancing/target/surefire-reports/
+/ex08-channel-loadbalancing/target/test-classes/
+/ex08-channel-loadbalancing/target/generated-test-sources/
+/ex08-channel-loadbalancing/target/protoc-dependencies/
+/ex08-channel-loadbalancing/target/maven-status/
+/ex08-channel-loadbalancing/target/classes/
+/ex08-channel-loadbalancing/target/protoc-plugins/
+/ex08-channel-loadbalancing/target/ex08-channel-loadbalancing-1.0-SNAPSHOT.jar
