@@ -12,9 +12,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class LoadBalancingTest {
+public class LoadBalancingTest1 {
 
-    private static final Logger log = LoggerFactory.getLogger(LoadBalancingTest.class);
+    private static final Logger log = LoggerFactory.getLogger(LoadBalancingTest1.class);
     private BankServiceGrpc.BankServiceBlockingStub bankServiceBlockingStub;
     private ManagedChannel channel;
 
