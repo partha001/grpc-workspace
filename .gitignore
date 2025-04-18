@@ -77,3 +77,14 @@
 /ex08-channel-loadbalancing/target/classes/
 /ex08-channel-loadbalancing/target/protoc-plugins/
 /ex08-channel-loadbalancing/target/ex08-channel-loadbalancing-1.0-SNAPSHOT.jar
+
+
+/ex09-calloptions-metadata-context-interceptor/target/surefire-reports/
+/ex09-calloptions-metadata-context-interceptor/target/test-classes/
+/ex09-calloptions-metadata-context-interceptor/target/generated-test-sources/
+/ex09-calloptions-metadata-context-interceptor/target/protoc-dependencies/
+/ex09-calloptions-metadata-context-interceptor/target/maven-status/
+/ex09-calloptions-metadata-context-interceptor/target/classes/
+/ex09-calloptions-metadata-context-interceptor/target/protoc-plugins/
+/ex09-calloptions-metadata-context-interceptor/target/ex09-calloptions-metadata-context-interceptor-1.0-SNAPSHOT.jar
+
