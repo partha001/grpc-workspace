@@ -4,6 +4,7 @@ import com.google.common.util.concurrent.Uninterruptibles;
 import com.partha.program01.*;
 import io.grpc.Context;
 import io.grpc.Status;
+import io.grpc.stub.ServerCallStreamObserver;
 import io.grpc.stub.StreamObserver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,6 +23,10 @@ public class BankService extends BankServiceGrpc.BankServiceImplBase {
                 .setAccountNumber(accountNumber)
                 .setBalance(balance)
                 .build();
+
+        //to enable compression on the server-side at a service level just uncomment the below line.
+        ((ServerCallStreamObserver<AccountBalance>)responseObserver).setCompression("gzip");
+
         responseObserver.onNext(accountBalance);
         responseObserver.onCompleted();
     }
