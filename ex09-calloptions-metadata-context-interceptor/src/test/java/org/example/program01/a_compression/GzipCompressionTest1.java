@@ -1,6 +1,7 @@
-package org.example.program01;
+package org.example.program01.a_compression;
 
 import com.partha.program01.BalanceCheckRequest;
+import org.example.program01.AbstractTest;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
